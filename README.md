@@ -7,7 +7,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.0.0-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
-[![yt-dlp](https://img.shields.io/badge/yt--dlp-2024.12.13-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://github.com/yt-dlp/yt-dlp)
+[![yt-dlp](https://img.shields.io/badge/yt--dlp-2026.06.09-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://github.com/yt-dlp/yt-dlp)
 
 **A self-hosted, full-stack video downloader web app with a clean UI and 1000+ platform support.**
 
