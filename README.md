@@ -267,9 +267,21 @@ curl -X POST http://localhost:5000/api/analyze \
 | Port | `5000` | Change in `main.py` → `app.run(port=5000)` |
 | File Expiry | 24 hours | Hardcoded in `run_download()` |
 
-### Optional: YouTube Cookies
+### ⚠️ YouTube Cookies (Required for YouTube Downloads)
 
-If YouTube downloads fail due to bot detection, place a `cookies.txt` (Netscape format) in the project root. The app picks it up automatically.
+YouTube has strict bot detection — without a `cookies.txt` file, YouTube downloads will likely fail.
+
+**How to get it:**
+1. Install a browser extension that exports cookies in Netscape format
+   - Chrome/Edge: **Get cookies.txt LOCALLY**
+   - Firefox: **cookies.txt**
+2. Log in to your YouTube account in the browser
+3. While on `youtube.com`, click the extension → Export
+4. Save the file as `cookies.txt` in the project root (same folder as `main.py`)
+
+The app detects it automatically — no extra config needed.
+
+> 🔒 **Never upload `cookies.txt` to GitHub.** It contains your YouTube session. Add it to `.gitignore`.
 
 ---
 
