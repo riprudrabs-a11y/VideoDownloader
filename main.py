@@ -13,6 +13,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 CORS(app)
 
+`'extractor_args': {'youtube': {'player_client': ['android']}}`[9]
 # Configuration
 DOWNLOAD_DIR = 'downloads'
 TEMP_DIR = 'temp'
